@@ -5,10 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="./style.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
-  <script href="./index.js"></script>
+  <h1>My To Do List</h1>
+  <div id="task-container">
+    <ul id="task-list">
+      <!-- STANDARD TASK ITEM STRUCTURE
+        <li class="task">
+        <p class="task-text"></p>Item 1
+        <button class="remove-task-button">x</button>
+        </li>
+      -->
+    </ul>
+    <input id="add-task-input" value="" type="text">
+    <button id="add-task-button" type="button">+</button>
+  </div>
+  <script src="./index.js"></script>
 </body>
 </html>
